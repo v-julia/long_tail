@@ -1,4 +1,3 @@
-import com.google.inject.internal.util.$Lists;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.conf.Configured;
 import org.apache.hadoop.fs.FileStatus;
@@ -42,7 +41,7 @@ public class QueryStat extends Configured implements Tool {
         {
             try {
                 FileSystem fs = FileSystem.get(new Configuration());
-                FileStatus[] statuses = fs.globStatus(qidspath);
+                FileStatus[] statuses = fs.globStatus(qid_path);
                 for (FileStatus status : statuses)
                 {
                     BufferedReader br=new BufferedReader(new InputStreamReader(fs.open(status.getPath()), StandardCharsets.UTF_8));

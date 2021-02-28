@@ -1,8 +1,12 @@
-QueryStats.java
- QueryStats
-Untar.java
- Untar
-UrlStats.java
- UrlStats
- UrlStats$UrlStatsMapper
- UrlStats$UrlStatsReducer
+QueryStat.java
+ QueryStat
+ QueryStat$QueryStatMapper
+ QueryStat$QueryStatReducer
+QueryUrlStat.java
+ QueryUrlStat
+ QueryUrlStat$QueryUrlStatMapper
+ QueryUrlStat$QueryUrlStatReducer
+sDBN.java
+ sDBN
+ sDBN$sDBNMapper
+ sDBN$sDBNReducer
